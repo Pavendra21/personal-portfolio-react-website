@@ -4,6 +4,8 @@ import Work from './Work';
 import Skills from './Skills';
 import resume from '../Resume/pavendra_resume.pdf';
 import Education from './Education';
+// import image from '../Images/image25.jpg';
+import image2 from '../Images/image.jpg';
 
 const LandingPage = () => {
   return (
@@ -24,7 +26,7 @@ const LandingPage = () => {
       {/* Photo Section */}
       <div className="flex-1 md:w-1/2 p-4 mb-6 md:mr-16 ml-auto">
         <img
-          src="https://writestylesonline.com/wp-content/uploads/2018/11/Three-Statistics-That-Will-Make-You-Rethink-Your-Professional-Profile-Picture-1024x1024.jpg" // Replace with your image URL
+          src= {image2} // Replace with your image URL
           alt="Landing"
           className="object-cover h-80 w-90 border-4 rounded-md mx-auto md:ml-auto"
         />

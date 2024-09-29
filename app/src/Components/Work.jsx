@@ -1,6 +1,7 @@
 import React from 'react';
 import image from '../Images/Image21.png'
 import image2 from '../Images/image22.png'
+import image3 from '../Images/image4.png'
 
 const projects = [
   {
@@ -8,31 +9,31 @@ const projects = [
     description: 'A full-stack MERN app for sharing and discovering recipes.',
     image:  image, // Replace with your project image
     techStack: ['HTML','CSS','React', 'Node.js', 'MongoDB', 'Express'],
-    liveLink: '#', // Add your live project link
+    liveLink: 'https://recipe-chi-seven.vercel.app/', // Add your live project link
     githubLink: 'https://github.com/Pavendra21/Recipe.git', // Add your GitHub repo link
   },
   {
     title: 'Portfolio Website',
     description: 'A personal portfolio website to showcase my projects and skills.',
     image:  image2 ,
-    techStack: ['HTML','CSS','React', 'Tailwind CSS'],
-    liveLink: '#',
-    githubLink: '#',
+    techStack: ['HTML','CSS','React', 'Tailwind CSS'    ],
+    liveLink: 'https://personal-portfolio-react-website.vercel.app/',
+    githubLink: 'https://github.com/Pavendra21/personal-portfolio-react-website',
   },
   {
     title: 'Portfolio Website',
-    description: 'A personal portfolio website to showcase my projects and skills.',
-    image: 'https://via.placeholder.com/300',
-    techStack: ['React', 'Tailwind CSS'],
-    liveLink: '#',
-    githubLink: '#',
+    description: 'A E-Commerce website to Purchase elctronic items , with complete Login SignUp Validation',
+    image: image3 ,
+    techStack: ['HTML','CSS','Tailwand CSS','React', 'Node.js', 'MongoDB', 'Express', 'Redux', "JSON Web Token"],
+    liveLink: 'https://shoplinee.onrender.com/',
+    githubLink: 'https://github.com/Pavendra21/E-commerce-MERN-stack',
   },
 ];
 
 const Work = () => {
   return (
     <>
-      <h2 id='Work' className="text-4xl font-bold text-center font-mono mt-20 mb-20">My Work</h2>
+      <h2 id='Work' className="text-4xl font-bold text-center font-mono mt-20 mb-20">Projects</h2>
       <section  className="py-12 px-12 text-white">
         <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
           {projects.map((project, index) => (
