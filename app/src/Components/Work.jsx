@@ -21,11 +21,11 @@ const projects = [
     githubLink: 'https://github.com/Pavendra21/personal-portfolio-react-website',
   },
   {
-    title: 'Portfolio Website',
-    description: 'A E-Commerce website to Purchase elctronic items , with complete Login SignUp Validation',
-    image: image3 ,
+    title: 'Shopping App',
+    description: 'A E-Commerce website to Purchase diffrent items, including clothes, Artifacts etc , with complete Login SignUp Validation',
+    image: image4 ,
     techStack: ['HTML','CSS','Tailwand CSS','React', 'Node.js', 'MongoDB', 'Express', 'Redux', "JSON Web Token"],
-    liveLink: 'https://shoplinee.onrender.com/',
+    liveLink: 'https://thrift-qar.vercel.app/',
     githubLink: 'https://github.com/Pavendra21/E-commerce-MERN-stack',
   },
 ];
